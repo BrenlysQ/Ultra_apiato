@@ -1,0 +1,445 @@
+{
+  "EchoToken": "1",
+  "TimeStamp": "2017-05-23T22:59:05+00:00",
+  "Target": "Production",
+  "Version": "3.0",
+  "SequenceNmbr": "1",
+  "Success": null,
+  "OriginDestinationInformation": [
+    {
+      "DepartureDateTime": "2017-06-06",
+      "OriginLocation": "CCS",
+      "DestinationLocation": "PMV",
+      "OriginDestinationOptions": {
+        "OriginDestinationOption": [
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-06 06:30:00",
+              "ArrivalDateTime": "2017-06-06 07:20:00",
+              "StopQuantity": "0",
+              "FlightNumber": "902",
+              "JourneyDuration": "00:50:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PMV"
+              },
+              "Equipment": {
+                "AirEquipType": "M81"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "QL"
+              },
+              "Meal": {
+                "MealCode": "-"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-06 08:00:00",
+              "ArrivalDateTime": "2017-06-06 08:45:00",
+              "StopQuantity": "0",
+              "FlightNumber": "1302",
+              "JourneyDuration": "00:45:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PMV"
+              },
+              "Equipment": {
+                "AirEquipType": "M82"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "VH"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "H",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-06 13:30:00",
+              "ArrivalDateTime": "2017-06-06 14:15:00",
+              "StopQuantity": "0",
+              "FlightNumber": "8013",
+              "JourneyDuration": "00:45:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PMV"
+              },
+              "Equipment": {
+                "AirEquipType": "732"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "E4"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "4",
+                  "RPH": "1"
+                }
+              ]
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-06 16:00:00",
+              "ArrivalDateTime": "2017-06-06 16:50:00",
+              "StopQuantity": "0",
+              "FlightNumber": "904",
+              "JourneyDuration": "00:50:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PMV"
+              },
+              "Equipment": {
+                "AirEquipType": "M81"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "QL"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-06 19:30:00",
+              "ArrivalDateTime": "2017-06-06 20:15:00",
+              "StopQuantity": "0",
+              "FlightNumber": "312",
+              "JourneyDuration": "00:45:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PMV"
+              },
+              "Equipment": {
+                "AirEquipType": "M82"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "VH"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "DepartureDateTime": "2017-06-08",
+      "OriginLocation": "PMV",
+      "DestinationLocation": "CCS",
+      "OriginDestinationOptions": {
+        "OriginDestinationOption": [
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 06:00:00",
+              "ArrivalDateTime": "2017-06-08 06:45:00",
+              "StopQuantity": "0",
+              "FlightNumber": "301",
+              "JourneyDuration": "00:45:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "M82"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "VH"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 08:00:00",
+              "ArrivalDateTime": "2017-06-08 08:50:00",
+              "StopQuantity": "0",
+              "FlightNumber": "903",
+              "JourneyDuration": "00:50:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "M81"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "QL"
+              },
+              "Meal": {
+                "MealCode": "-"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 09:15:00",
+              "ArrivalDateTime": "2017-06-08 10:00:00",
+              "StopQuantity": "0",
+              "FlightNumber": "1303",
+              "JourneyDuration": "00:45:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "M82"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "VH"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "H",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 15:15:00",
+              "ArrivalDateTime": "2017-06-08 16:00:00",
+              "StopQuantity": "0",
+              "FlightNumber": "8014",
+              "JourneyDuration": "00:45:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "732"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "E4"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                }
+              ]
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 16:00:00",
+              "ArrivalDateTime": "2017-06-08 16:50:00",
+              "StopQuantity": "0",
+              "FlightNumber": "332",
+              "JourneyDuration": "00:50:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "732"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AW"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 17:00:00",
+              "ArrivalDateTime": "2017-06-08 17:40:00",
+              "StopQuantity": "0",
+              "FlightNumber": "303",
+              "JourneyDuration": "00:40:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "737"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "5R"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "O",
+                  "ResBookDesigQuantity": "5",
+                  "RPH": "1"
+                }
+              ]
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 17:45:00",
+              "ArrivalDateTime": "2017-06-08 18:35:00",
+              "StopQuantity": "0",
+              "FlightNumber": "905",
+              "JourneyDuration": "00:50:00",
+              "DepartureAirport": {
+                "LocationCode": "PMV"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "M81"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "QL"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": {
+                "ResBookDesigCode": "Y",
+                "ResBookDesigQuantity": "9",
+                "RPH": "1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

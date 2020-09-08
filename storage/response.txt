@@ -1,0 +1,388 @@
+{
+  "EchoToken": "1",
+  "TimeStamp": "2017-06-03T20:31:23+00:00",
+  "Target": "Production",
+  "Version": "3.0",
+  "SequenceNmbr": "1",
+  "Success": null,
+  "OriginDestinationInformation": [
+    {
+      "DepartureDateTime": "2017-06-08 20:28:19",
+      "OriginLocation": "CCS",
+      "DestinationLocation": "PTY",
+      "OriginDestinationOptions": {
+        "OriginDestinationOption": [
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 10:45:00",
+              "ArrivalDateTime": "2017-06-08 12:00:00",
+              "StopQuantity": "0",
+              "FlightNumber": "2950",
+              "JourneyDuration": "02:15:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PTY"
+              },
+              "Equipment": {
+                "AirEquipType": "M81"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "QL"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "K",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "L",
+                  "ResBookDesigQuantity": "5",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "R",
+                  "ResBookDesigQuantity": "1",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                }
+              ]
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-08 12:00:00",
+              "ArrivalDateTime": "2017-06-08 13:50:00",
+              "StopQuantity": "0",
+              "FlightNumber": "402",
+              "JourneyDuration": "02:50:00",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PTY"
+              },
+              "Equipment": {
+                "AirEquipType": "732"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AW"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "V",
+                  "ResBookDesigQuantity": "5",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "P",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "A",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "8",
+                  "RPH": "1"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "DepartureDateTime": "2017-07-03 20:28:19",
+      "OriginLocation": "PTY",
+      "DestinationLocation": "CCS",
+      "OriginDestinationOptions": {
+        "OriginDestinationOption": [
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-07-03 07:20:00",
+              "ArrivalDateTime": "2017-07-03 10:20:00",
+              "StopQuantity": "0",
+              "FlightNumber": "403",
+              "JourneyDuration": "02:00:00",
+              "DepartureAirport": {
+                "LocationCode": "PTY"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "732"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AW"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "V",
+                  "ResBookDesigQuantity": "5",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "P",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "A",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "8",
+                  "RPH": "1"
+                }
+              ]
+            }
+          },
+          {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-07-03 13:30:00",
+              "ArrivalDateTime": "2017-07-03 16:45:00",
+              "StopQuantity": "0",
+              "FlightNumber": "2951",
+              "JourneyDuration": "02:15:00",
+              "DepartureAirport": {
+                "LocationCode": "PTY"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "CCS"
+              },
+              "Equipment": {
+                "AirEquipType": "M81"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "QL"
+              },
+              "Meal": {
+                "MealCode": "S"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "K",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "L",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                }
+              ]
+            }
+          },
+          {
+            "FlightSegment": [
+              {
+                "DepartureDateTime": "2017-07-03 13:00:00",
+                "ArrivalDateTime": "2017-07-03 15:30:00",
+                "StopQuantity": "0",
+                "FlightNumber": "8003",
+                "JourneyDuration": "01:30:00",
+                "DepartureAirport": {
+                  "LocationCode": "PTY"
+                },
+                "ArrivalAirport": {
+                  "LocationCode": "MAR"
+                },
+                "Equipment": {
+                  "AirEquipType": "M82"
+                },
+                "MarketingAirline": {
+                  "CompanyShortName": "VH"
+                },
+                "Meal": {
+                  "MealCode": "S"
+                },
+                "MarketingCabin": {
+                  "CabinType": "Economy",
+                  "RPH": "1"
+                },
+                "BookingClassAvail": [
+                  {
+                    "ResBookDesigCode": "Y",
+                    "ResBookDesigQuantity": "9",
+                    "RPH": "1"
+                  },
+                  {
+                    "ResBookDesigCode": "Q",
+                    "ResBookDesigQuantity": "9",
+                    "RPH": "1"
+                  }
+                ]
+              },
+              {
+                "DepartureDateTime": "2017-07-03 17:30:00",
+                "ArrivalDateTime": "2017-07-03 18:30:00",
+                "StopQuantity": "0",
+                "FlightNumber": "109",
+                "JourneyDuration": "01:00:00",
+                "DepartureAirport": {
+                  "LocationCode": "MAR"
+                },
+                "ArrivalAirport": {
+                  "LocationCode": "CCS"
+                },
+                "Equipment": {
+                  "AirEquipType": "M82"
+                },
+                "MarketingAirline": {
+                  "CompanyShortName": "VH"
+                },
+                "Meal": {
+                  "MealCode": "S"
+                },
+                "MarketingCabin": {
+                  "CabinType": "Economy",
+                  "RPH": "1"
+                },
+                "BookingClassAvail": [
+                  {
+                    "ResBookDesigCode": "Y",
+                    "ResBookDesigQuantity": "9",
+                    "RPH": "1"
+                  },
+                  {
+                    "ResBookDesigCode": "M",
+                    "ResBookDesigQuantity": "L",
+                    "RPH": "1"
+                  },
+                  {
+                    "ResBookDesigCode": "Q",
+                    "ResBookDesigQuantity": "9",
+                    "RPH": "1"
+                  },
+                  {
+                    "ResBookDesigCode": "T",
+                    "ResBookDesigQuantity": "4",
+                    "RPH": "1"
+                  },
+                  {
+                    "ResBookDesigCode": "U",
+                    "ResBookDesigQuantity": "1",
+                    "RPH": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

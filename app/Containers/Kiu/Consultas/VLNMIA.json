@@ -1,0 +1,401 @@
+{
+  "departure_city" : "VLN",
+  "destination_city" : "MIA",
+  "departure_date" : "06-06-2017",
+  "return_date" : "08-06-2017",
+  "currency" : 3
+}
+{
+  "EchoToken": "1",
+  "TimeStamp": "2017-05-23T21:09:02+00:00",
+  "Target": "Production",
+  "Version": "3.0",
+  "SequenceNmbr": "1",
+  "Success": null,
+  "OriginDestinationInformation": [
+    {
+      "DepartureDateTime": "2017-06-06",
+      "OriginLocation": "VLN",
+      "DestinationLocation": "MIA",
+      "OriginDestinationOptions": {
+        "OriginDestinationOption": {
+          "FlightSegment": [
+            {
+              "DepartureDateTime": "2017-06-06 11:45:00",
+              "ArrivalDateTime": "2017-06-06 12:50:00",
+              "StopQuantity": "0",
+              "FlightNumber": "112",
+              "JourneyDuration": "01:05:00",
+              "DepartureAirport": {
+                "LocationCode": "VLN"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "AUA"
+              },
+              "Equipment": {
+                "AirEquipType": "319"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AG"
+              },
+              "Meal": {
+                "MealCode": "N"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "H",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "K",
+                  "ResBookDesigQuantity": "1",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "Q",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "N",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "T",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "L",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "W",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "R",
+                  "ResBookDesigQuantity": "L",
+                  "RPH": "1"
+                }
+              ]
+            },
+            {
+              "DepartureDateTime": "2017-06-06 17:30:00",
+              "ArrivalDateTime": "2017-06-06 20:30:00",
+              "StopQuantity": "0",
+              "FlightNumber": "821",
+              "JourneyDuration": "04:00:00",
+              "DepartureAirport": {
+                "LocationCode": "AUA"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "MIA"
+              },
+              "Equipment": {
+                "AirEquipType": "319"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AG"
+              },
+              "Meal": {
+                "MealCode": "N"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "H",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "K",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "Q",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "N",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "1",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "U",
+                  "ResBookDesigQuantity": "1",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "R",
+                  "ResBookDesigQuantity": "3",
+                  "RPH": "1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "DepartureDateTime": "2017-06-08",
+      "OriginLocation": "MIA",
+      "DestinationLocation": "VLN",
+      "OriginDestinationOptions": {
+        "OriginDestinationOption": {
+          "FlightSegment": [
+            {
+              "DepartureDateTime": "2017-06-08 08:00:00",
+              "ArrivalDateTime": "2017-06-08 11:00:00",
+              "StopQuantity": "0",
+              "FlightNumber": "820",
+              "JourneyDuration": "02:00:00",
+              "DepartureAirport": {
+                "LocationCode": "MIA"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "AUA"
+              },
+              "Equipment": {
+                "AirEquipType": "319"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AG"
+              },
+              "Meal": {
+                "MealCode": "N"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "H",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "K",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "Q",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "N",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "W",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "G",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "R",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                }
+              ]
+            },
+            {
+              "DepartureDateTime": "2017-06-08 13:50:00",
+              "ArrivalDateTime": "2017-06-08 14:55:00",
+              "StopQuantity": "0",
+              "FlightNumber": "111",
+              "JourneyDuration": "01:05:00",
+              "DepartureAirport": {
+                "LocationCode": "AUA"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "VLN"
+              },
+              "Equipment": {
+                "AirEquipType": "319"
+              },
+              "MarketingAirline": {
+                "CompanyShortName": "AG"
+              },
+              "Meal": {
+                "MealCode": "N"
+              },
+              "MarketingCabin": {
+                "CabinType": "Economy",
+                "RPH": "1"
+              },
+              "BookingClassAvail": [
+                {
+                  "ResBookDesigCode": "Y",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "B",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "H",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "M",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "K",
+                  "ResBookDesigQuantity": "4",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "Q",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "N",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "X",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "S",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "T",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "L",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "W",
+                  "ResBookDesigQuantity": "6",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "G",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                },
+                {
+                  "ResBookDesigCode": "R",
+                  "ResBookDesigQuantity": "9",
+                  "RPH": "1"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+**** Missing schemas ****
+Queue_MoveItem_03_1_1A.xsd
+Fare_CheckRulesReply_07_1_1A.xsd
+PNR_Ignore_04_1_IA.xsd
+PNR_IgnoreReply_04_1_IA.xsd
+Fare_CheckRules_07_1_1A.xsd
+Queue_MoveItemReply_03_1_1A.xsd
+Command_Cryptic_07_3_1A.xsd
+Command_CrypticReply_07_3_1A.xsd

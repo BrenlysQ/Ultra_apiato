@@ -1,0 +1,265 @@
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 12px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.top-spacer{
+  margin-top: 15px;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.account-form .panel-body{
+  display: none;
+}
+.account-form .panel-body.active{
+  display: block;
+}
+
+body {
+    background-color: #eee;
+}
+
+
+.title-login {
+    width: 25%;
+    margin: 5rem auto;
+}
+
+.panel-login {
+    border-radius: 0;
+    padding: 1rem 0;
+    border: 0;
+    border-top: 4px solid #0089EC;
+    /*max-width: 320px;*/
+    margin: 4rem 0;
+}
+
+.panel-ultrapago {
+    border-radius: 0;
+    padding: 1rem 0;
+    border: 0;
+    border-top: 4px solid #94c11f;
+    margin: 4rem 0;
+    /*max-width: 500px;*/
+}
+
+.panel-body {
+    padding: 1rem 2rem;
+}
+
+.panel-default> .panel-heading {
+    color: #0089ec;
+    background-color: transparent; 
+    border-color: transparent;
+    text-align: center; 
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.panel-heading-ultrapago {
+    color: #94c11f;
+    background-color: transparent; 
+    border-color: transparent;
+    text-align: center; 
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 1rem 0;
+}
+
+.form-signin .form-control {
+    outline: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 2rem !important;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #0089EC;
+}
+
+.btn-login {
+    background-color: #0089EC;
+    border-color: #0089EC;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-cancelar {
+    background-color: #e51c23;
+    border-color: #e51c23;
+    padding: 1rem;
+    margin-top: 4rem;
+    color: white !important;
+}
+
+.btn-cancelar:hover {
+    background-color: #ce1920;
+    border-color: #ce1920;
+    color: white !important;
+}
+
+.btn-login:hover {
+    background-color: #0679cc;
+    border-color: #0679cc;
+}
+
+.panel-line-or {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    display: block;
+    color: #ddd;
+    padding: 1rem 0;
+}
+
+.panel-line-or:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #ddd;
+    width: 40%;
+    height: 1px;
+}
+
+.panel-line-or:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #ddd;
+    width: 40%;
+    height: 1px;
+}
+
+
+.panel-login-sesion {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.panel-login-sesion a {
+    width: 30px;
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.panel-login-sesion a img{
+    width: 100%;
+}
+
+a.form-handler {
+    display: block;
+    text-align: center;
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.form-recover {
+    font-size: 14px;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+a.form-recover span {
+    color: #0089EC;
+    text-decoration: underline;
+}
+
+.label-login {
+    color: #999;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.panel-image {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.panel-image img {
+    width: 100%;
+}
+
+#newaccbutton i {
+    margin-right: 1rem;
+}

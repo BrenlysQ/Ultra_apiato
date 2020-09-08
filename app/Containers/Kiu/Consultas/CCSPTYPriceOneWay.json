@@ -1,0 +1,111 @@
+{
+  "EchoToken": "1",
+  "TimeStamp": "2017-05-24T14:36:16+00:00",
+  "Target": "Production",
+  "Version": "3.0",
+  "SequenceNmbr": "1",
+  "Success": null,
+  "PricedItineraries": {
+    "PricedItinerary": {
+      "SequenceNumber": "1",
+      "AirItinerary": {
+        "OriginDestinationOptions": {
+          "OriginDestinationOption": {
+            "FlightSegment": {
+              "DepartureDateTime": "2017-06-02 10:45:00",
+              "ArrivalDateTime": "2017-06-02 12:00:00",
+              "FlightNumber": "2950",
+              "ResBookDesigCode": "Y",
+              "DepartureAirport": {
+                "LocationCode": "CCS"
+              },
+              "ArrivalAirport": {
+                "LocationCode": "PTY"
+              },
+              "MarketingAirline": {
+                "Code": "QL"
+              }
+            }
+          }
+        }
+      },
+      "AirItineraryPricingInfo": {
+        "ItinTotalFare": {
+          "BaseFare": {
+            "Amount": "485.65",
+            "CurrencyCode": "USD"
+          },
+          "Taxes": {
+            "Tax": [
+              {
+                "TaxCode": "AJ",
+                "Amount": "1.65",
+                "CurrencyCode": "USD"
+              },
+              {
+                "TaxCode": "AK",
+                "Amount": "4.12",
+                "CurrencyCode": "USD"
+              },
+              {
+                "TaxCode": "EU",
+                "Amount": "4.86",
+                "CurrencyCode": "USD"
+              },
+              {
+                "TaxCode": "YN",
+                "Amount": "29.14",
+                "CurrencyCode": "USD"
+              }
+            ]
+          },
+          "TotalFare": {
+            "Amount": "525.42",
+            "CurrencyCode": "USD"
+          }
+        },
+        "PTC_FareBreakdowns": {
+          "PTC_FareBreakdown": {
+            "PassengerTypeQuantity": {
+              "Quantity": "1",
+              "Code": "ADT"
+            },
+            "PassengerFare": {
+              "BaseFare": {
+                "Amount": "485.65",
+                "CurrencyCode": "USD"
+              },
+              "Taxes": {
+                "Tax": [
+                  {
+                    "TaxCode": "AJ",
+                    "Amount": "1.65",
+                    "CurrencyCode": "USD"
+                  },
+                  {
+                    "TaxCode": "AK",
+                    "Amount": "4.12",
+                    "CurrencyCode": "USD"
+                  },
+                  {
+                    "TaxCode": "EU",
+                    "Amount": "4.86",
+                    "CurrencyCode": "USD"
+                  },
+                  {
+                    "TaxCode": "YN",
+                    "Amount": "29.14",
+                    "CurrencyCode": "USD"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "IssueOfficeInfo": {
+    "OfficeID": ""
+  }
+}

@@ -1,0 +1,559 @@
+/* ==========================================================================
+MAIN
+========================================================================== */
+body {
+  background-color: #fafafa;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.invoice-text {
+  font-size: 16px;
+  display: block;
+}
+
+.invoice-text-title {
+  font-size: 12px;
+}
+
+.invoice-mainprice {
+  font-size: 18px;
+  font-weight: 900;
+  display: block;
+}
+
+.invoice-price {
+  font-size: 12px;
+  display: block;
+}
+
+/* ==========================================================================
+Credit Card FORM
+========================================================================== */
+.img-ccgateway {
+  max-width: 250px;
+}
+ .container-rights {
+    float: right;
+  }
+
+/* ==========================================================================
+wizard cualquiera q sea
+========================================================================== */
+.wizard {
+  display: flex;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+.wizard li {
+  list-style: none;
+  background-color: #3097d1;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem 5rem;
+  margin-right: 3.2rem;
+}
+
+.wizard li.selected {
+  background-color: #777;
+}
+
+.wizard li.selected::before {
+  border-left-color: #777;
+}
+
+
+.wizard li::before, .wizard li::after {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: transparent;
+}
+
+.wizard li::before {
+    border-width: 30px;
+    border-left-color: #3097d1;
+    right: -60px;
+    bottom: 0;
+}
+
+.wizard li::after {
+  border-width: 30px; 
+  border-left-color: #fafafa;
+  left: 0;
+  bottom: 0;
+}
+
+.wizard li h3 {
+  font-size: 36px;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.wizard li i {
+  margin-left: 1rem;
+  font-size: 22px;
+}
+/* SM */
+@media (min-width: 768px) and (max-width: 991px) {
+  .wizard li {
+    font-size: 10px;
+  }
+  .wizard li::before {
+    border-width: 26px;
+    right: -52px;
+    bottom: 0;
+  }
+  .wizard li::after {
+    border-width: 26px;
+    left: 0;
+    bottom: 0;
+  }
+  .wizard li i {
+    font-size: 16px;
+  }
+  .wizard li h3 {
+    font-size: 20px;
+  }
+  .img-ccgateway {
+    max-width: 220px;
+  }
+  .jp-card {
+    float: left !important;
+  }
+  .card-wrapper {
+    transform: translate(-30px, -0%);
+  }
+
+
+
+}
+/* MD */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .wizard li::before {
+    border-width: 32px;
+    right: -64px;
+    bottom: 0;
+  }
+  .wizard li::after {
+    border-width: 32px;
+    left: 0;
+    bottom: 0;
+  }
+  .container-rights {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .img-ccgateway {
+    max-width: 230px;
+  }
+  .jp-card {
+    float: left !important;
+  }
+ /* .card-wrapper {
+    transform: translate(-30px, -0%);
+  }*/
+}
+
+/*.wizard-follando {
+  margin: 40px 0;
+}
+
+.wizard li {
+  background-color: #E4E4E4;
+  border-radius: 5px;
+  display: inline;
+  padding: 10px 30px 10px 40px;
+  margin-right: -7px;
+  width: auto;
+}
+
+.wizard li::before, .wizard li::after {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: transparent;
+  border-left-color: #fff;
+  border-radius: 10px;
+}
+
+.wizard li::before {
+  border-width: 25px; 
+  margin-top: -16px;
+  margin-left: 84px;
+}
+
+
+.wizard li::after {
+  border-left-color: #E4E4E4;
+  border-width: 21px; 
+  margin-top: -12px;
+  margin-left: 24px;
+}
+
+.wizard li.selected {
+  background-color: #FF4F65;
+  color: #fff;
+}
+
+.wizard li.selected::after {
+  border-left-color: #FF4F65;
+}
+
+.wizard li:last-child::after {
+  border-left-color: transparent;
+}*/
+/* ==========================================================================
+tabs de formas de pago
+========================================================================== */
+.nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-payment-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.nav-payment-tabs > li > a {
+  margin-right: 20px;
+  line-height: 1.6;
+  border: 4px solid transparent;
+  border-radius: 4px;
+}
+
+.nav-payment-tabs > li > a:hover {
+  border-color: #eeeeee;
+  background-color: transparent;
+}
+
+.nav-payment-tabs > li.active > a, .nav-payment-tabs > li.active > a:hover, .nav-payment-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: transparent;
+  border: 4px solid #ddd;
+  cursor: default;
+}
+
+.tab-payment-content {
+  padding: 20px;
+  padding-top: 0px;
+}
+.account-container {
+    margin-bottom: 0px;
+}
+/* ==========================================================================
+VIEJO DE CECILIO
+========================================================================== */
+/* #0f9d58 */
+.submit-button {
+  margin-top: 10px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.paymentinfo{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.paymentinfo .btn{
+  margin-top: 10px;
+}
+.paymentinfo h4{
+  font-size: 1.2em;
+}
+.ppaymentdiv{
+  padding-top: 10px;
+}
+.roweqheight{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: #FAFAFA;
+  padding-bottom:10px;
+}
+.row.buttons{
+  margin-bottom: 10px;
+}
+.bottom-align-text {
+  position: absolute;
+  bottom: 10px;
+}
+.btn-pgateway{
+  width: 120px;
+}
+.mainwindowpayment .buttons{
+  margin-top: 15px;
+  text-align: center;
+}
+.pgmodal {
+    background-color: #EEE;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    left: 0;
+}
+.hidden{
+    display: none;
+}
+.shown{
+    display: flex;
+}
+.pgmodal .text-center{
+  width:100%;
+}
+.vertical-center {
+  align-items: center;
+}
+.uchip_select, .uchip_select .btn, .uchip_select .dropdown-menu{
+  width: 100%;
+}
+.uchip_select .option a{
+  padding: 10px 20px;
+}
+.uchip_select .option a img{
+  margin-right:10px;
+}
+.succesi{
+  color: #66BB6A;
+  font-size: 5em;
+}
+.failtdci{
+  color: #D50000;
+  font-size: 5em;
+}
+.circlei {
+    padding: 10px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 5px #006064;
+    -webkit-box-shadow: 0px 0px 5px #006064;
+    box-shadow: 0px 0px 5px #006064;
+}
+.avatar{
+  width: 50px;
+  border-radius: 250px;
+  border: 1px solid #01579B;
+}
+.userscreen{
+  padding: 5px 15px;
+}
+.logoff {
+    top: .8em;
+    right: 0px;
+    position: relative;
+}
+.logoff a{
+  color: #fff;
+  font-size: 1.2em;
+}
+.expiration select{
+  display:inline;
+  width:48%;
+}
+
+
+/* ==========================================================================
+Nuevos estilos jose 5/09/2017
+========================================================================== */
+
+.paying-card {
+  background-color: white;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px; }
+  .paying-card-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #003E65;
+    color: white;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px; }
+  .paying-card-avatar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .paying-card-avatar img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px; }
+    .paying-card-avatar p {
+      margin: 0; }
+    .paying-card-avatar a {
+      color: white; }
+      .paying-card-avatar a:hover {
+        text-decoration: none; }
+      .paying-card-avatar a i {
+        margin-right: 10px; }
+  .paying-card-aside {
+    background-color: #f5f5f5;
+    padding: 20px; }
+    .paying-card-aside h3 {
+      color: #003E65;
+      margin-bottom: 20px; }
+      @media (max-width: 760px) {
+        .paying-card-aside h3 {
+          margin: 0;
+          margin-bottom: 16px;
+          font-size: 20px; } }
+    .paying-card-aside ul {
+      padding: 0; }
+      .paying-card-aside ul li {
+        list-style: none;
+        margin: 30px 0;
+        color: #999;
+        font-weight: bold; }
+      .paying-card-aside ul li:last-child {
+        margin: 30px 0 0; }
+  .paying-card-data {
+    padding: 20px; }
+    .paying-card-data h3 {
+      margin-bottom: 20px; }
+      @media (max-width: 760px) {
+        .paying-card-data h3 {
+          margin: 0;
+          margin-bottom: 16px;
+          font-size: 20px; } }
+  .paying-card-logo {
+    width: 100%;
+    margin: 30px auto;
+    display: block;
+    text-align: center; }
+    .paying-card-logo img {
+      width: 150px; }
+  .paying-card .input-group-addon {
+    background: #003E65;
+    color: white;
+    border: 1px solid #003E65; }
+  .paying-card .caret {
+    margin-left: 10px;
+    float: right;
+    margin-top: 8px; }
+  .paying-card .dropdown-toggle {
+    background: #003E65;
+    color: white; }
+  .paying-card .dropdown-menu {
+    padding: 0;
+    width: 100%; }
+    .paying-card .dropdown-menu img {
+      margin-right: 10px; }
+    .paying-card .dropdown-menu .btn {
+      width: 100%; }
+  .paying-card .btn-decrarar {
+    background: #003E65;
+    color: white;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2); }
+    .paying-card .btn-decrarar i {
+      margin-right: 10px; }
+
+.boton_radio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px; }
+
+.plus-card-radio {
+  margin: 10px;
+  height: 20px; }
+
+input[type=radio] {
+  margin: 0; }
+
+.label--checkbox,
+.label--radio {
+  position: relative;
+  margin: .5rem;
+  font-family: Arial, sans-serif;
+  line-height: 135%;
+  cursor: pointer; }
+
+.radio {
+  position: relative;
+  margin: 0 1rem 0 0;
+  cursor: pointer; }
+
+.radio:before {
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  -o-transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75), -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  z-index: 1;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: #fff;
+  border-radius: 50%; }
+
+.radio:checked:before {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1); }
+
+.radio:after {
+  content: "";
+  position: absolute;
+  top: -0.25rem;
+  left: -0.125rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #003E65;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%; }
+
+@media (max-width: 760px) {
+  .paying-card {
+    padding: 0px 0px; } }
